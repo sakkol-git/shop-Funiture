@@ -1,0 +1,258 @@
+@extends('layouts.app')
+
+@section('title', 'Home eCommerce Bootstrap HTML Template - Furnish')
+@section('body_class', '')
+
+@section('content')
+<main>
+ <div class="py-lg-8 pt-6">
+		<div class="container">
+      
+			<div class="row justify-content-center">
+				<div class="col-xxl-8 col-12 ">
+					<div class="swiper-container swiper swiper-pagination-light " id="swiper-6"
+						data-pagination-type="" data-speed="800" data-space-between="100" data-pagination="true"
+						data-navigation="true" data-autoplay="true" data-effect="slide" data-autoplay-delay="3000"
+						data-breakpoints='{"480": {"slidesPerView": 2}, "768": {"slidesPerView": 1}, "1024": {"slidesPerView": 1}}'>
+						<div class="swiper-wrapper">
+	
+              <!--Slider-->
+							<div class="swiper-slide px-md-8 ">
+								<div class="position-relative text-center">
+                  
+									<img src="{{ asset('assets/images/slider-img-2.png') }}" alt="" class="img-fluid my-5 my-lg-0">
+                    <div class="text-center position-absolute top-0 start-0 px-lg-11   ">
+          <h1 class="fs-1 fst-italic text-secondary">%20 Sell</h1>
+          <h2 class="display-4 lh-1">Comfy Sofa Home-Office
+
+          </h2>
+          </div>
+           <div class="position-absolute top-md-65 top-75 start-50 translate-middle-x mt-lg-9 ">
+            <p class="d-none d-lg-block">Comfortable and stylish sofa for your home office.</p>
+            <div class="fw-bold mb-4 d-none d-lg-block">$50</div>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+								</div>
+							</div>
+							<!--Slider-->
+              							<!--Slider-->
+							<div class="swiper-slide px-md-8 ">
+								<div class="position-relative text-center">
+                  <img src="{{ asset('assets/images/slider-img-1.png') }}" alt="" class="img-fluid my-5 my-lg-0">
+                   <div class="text-center position-absolute top-0 start-0 px-lg-11   ">
+          <h1 class="fs-1 fst-italic text-secondary">%10 Sell</h1>
+          <h2 class="display-4 lh-1">Exchange your old furniture
+
+          </h2>
+          </div>
+          <div class="position-absolute top-md-65 top-75 start-50 translate-middle-x mt-lg-9 ">
+            <p class="d-none d-lg-block">Save up to $50 for your home office.</p>
+            <div class="fw-bold mb-4 d-none d-lg-block">$45</div>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+								</div>
+							</div>
+							<!--Slider-->
+              <!--Slider-->
+							<div class="swiper-slide px-md-8 ">
+								<div class="position-relative text-center">
+                  
+									<img src="{{ asset('assets/images/slider-img-3.png') }}" alt="" class="img-fluid my-5 my-lg-0">
+                   <div class="text-center position-absolute top-0 start-0 px-lg-11   ">
+          <h1 class="fs-1 fst-italic text-secondary">%25 Sell</h1>
+          <h2 class="display-4 lh-1">Crafted royal comfort sofa
+
+          </h2>
+          </div>
+            <div class="position-absolute top-md-65 top-75 start-50 translate-middle-x mt-lg-9 ">
+            <p class="d-none d-lg-block">Experience the elegance of timeless craftsmanship with our Sofa. </p>
+            <div class="fw-bold mb-4 d-none d-lg-block">$89</div>
+            <a href="#" class="btn btn-primary">View Details</a>
+          </div>
+								</div>
+							</div>
+					
+
+         
+							
+
+						</div>
+						<!-- Add Pagination -->
+						<!-- <div class="swiper-pagination mb-3 "></div> -->
+						<!-- Add Navigation -->
+						<div class="swiper-navigation mb-4">
+							<div class="swiper-button-prev">
+							</div>
+							<div class="swiper-button-next">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Hero slider end-->
+  <!--New arrival start-->
+	<section class="py-lg-10 mx-3 mx-lg-0 bg-white">
+		<div class="container">
+			<div class="row mb-md-8 mb-4">
+				<div class="col-lg-12 mb-8">
+					<div class="d-flex flex-column flex-md-row align-items-md-end justify-content-md-between gap-4">
+						<!--Heading-->
+						<div class="col-sm-5">
+							<h2 class="display-4">Our Favoiurte Collection</h2>
+							<p class="mb-0 lead">We are inspired by the realities of life today, in which traditional divides
+								between
+								personal and professional space are more fluid.</p>
+						</div>
+				
+					</div>
+				</div>
+        <div class="col-lg-12">
+          		<!--Slider-->
+		<div class="swiper-container swiper" id="swiper-3" data-pagination-type="bullets"  data-speed="400"
+			data-space-between="30" data-pagination="true" data-navigation="false" data-autoplay="false" data-effect="slides"
+			data-autoplay-delay="3000" 
+			data-breakpoints='{"480": {"slidesPerView": 2}, "768": {"slidesPerView": 3}, "1024": {"slidesPerView": 3}}'>
+			<div class="swiper-wrapper pb-10">
+				<div class="swiper-slide">
+          <div>
+            <a href="#"><img src="{{ asset('assets/images/product-img-1.jpg') }}" alt="" class="img-fluid"></a>
+            <div class="text-center">
+              <h3 class="mt-3 h5">
+                <a href="#">
+                Modern Chair</a></h3>
+             <div class="">
+                  <span class="fw-semibold text-decoration-line-through">$59.00</span>
+                  <span class="">$29.00</span>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        	<div class="swiper-slide">
+          <div>
+            <a href="#"><img src="{{ asset('assets/images/product-img-2.jpg') }}" alt="" class="img-fluid"></a>
+            <div class="text-center">
+              <h3 class="mt-3 h5">
+                <a href="#">
+                Floor Lamp</a></h3>
+                 <div class="">
+                  <span class="fw-semibold text-decoration-line-through">$95.00</span>
+                  <span class="">$89.00</span>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <a href="#"><img src="{{ asset('assets/images/product-img-5.jpg') }}" alt="" class="img-fluid"></a>
+            <div class="text-center">
+              <h3 class="mt-3 h5">
+                <a href="#">
+                High Back Boss Chair</a></h3>
+                <div class="">
+                  <span class="fw-semibold text-decoration-line-through">$78.00</span>
+                  <span class="">$68.00</span>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide">
+          <div>
+            <a href="#"><img src="{{ asset('assets/images/product-img-6.jpg') }}" alt="" class="img-fluid"></a>
+            <div class="text-center">
+              <h3 class="mt-3 h5">
+                <a href="#">
+                Fancy Metal Clock</a></h3>
+                <div class="">
+                  <span class="fw-semibold text-decoration-line-through">$58.00</span>
+                  <span class="">$38.00</span>
+                </div>
+            </div>
+          </div>
+
+        </div>
+         <div class="swiper-slide">
+          <div>
+            <a href="#"><img src="{{ asset('assets/images/product-img-3.jpg') }}" alt="" class="img-fluid"></a>
+            <div class="text-center">
+              <h3 class="mt-3 h5">
+                <a href="#">
+                Comfort Chair</a></h3>
+                <div class="">
+                  <span class="fw-semibold text-decoration-line-through">$38.00</span>
+                  <span class="">$28.00</span>
+                </div>
+            </div>
+          </div>
+
+        </div>
+				<!-- Add more slides as needed -->
+			</div>
+			<!-- Add Pagination -->
+				<div class="swiper-pagination mb-3"></div>
+			<!-- Add Navigation -->
+			<div class="swiper-navigation position-absolute start-50 translate-middle-x bottom-0 mb-4 d-none d-lg-block">
+        <div class="swiper-button-prev " id="slide1">
+				</div>
+				<div class="swiper-button-next" id="slide2">
+				</div>
+				
+			</div>
+		</div>
+
+        </div>
+			</div>
+		</div>
+
+	</section>
+	<!--New arrival end-->
+  <section  style="background: url('{{ asset('assets/') }}')no-repeat; background-size: cover; background-position: center;" class="py-lg-11 py-6">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-8">
+          <div class="card border-0 shadow-lg rounded-0">
+            <div class="card-body p-6">
+              <div class="text-center">
+              <p class="fst-italic ">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <div class="lh-1">
+                <h4 class="fs-5 mb-1">John Deo</h4>
+                <small class="text-sm">CEO, Company Name</small>
+              </div>
+              </div>
+
+
+            </div>
+
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="py-lg-10 py-5">
+    <div class="container ">
+      <div class="row justify-content-center mx-lg-10">
+        <div class="col-lg-8 text-center">
+          <h2 class=" mb-5">Subscribe to our Newsletter</h2>
+         
+            <form class="d-flex justify-content-center gap-2 flex-column flex-sm-row">
+            <input type="email" class="form-control w-lg-50 w-100" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+          </div>
+        </div>
+        </section>
+
+       
+
+      </main>
+@endsection
