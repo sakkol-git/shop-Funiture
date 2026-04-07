@@ -5,4 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@yield('title', config('app.name', 'Laravel'))</title>
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <style>
+    .hover-white:hover {
+        color: #fff !important;
+    }
+    </style>
   </head>
